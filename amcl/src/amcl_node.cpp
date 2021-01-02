@@ -115,7 +115,7 @@ angle_diff(double a, double b)
     return(d2);
 }
 
-static const std::string scan_topic_ = "scan";
+static const std::string scan_topic_ = "p3dx/laser/scan";
 
 /* This function is only useful to have the whole code work
  * with old rosbags that have trailing slashes for their frames
